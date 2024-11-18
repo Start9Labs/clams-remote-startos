@@ -4,11 +4,11 @@
 id:
   clams-remote
   # A human readable service title
-title: "Clams Remote"
+title: "Remote"
 # Service version - accepts up to four digits, where the last confirms to revisions necessary for StartOS - see documentation: https://github.com/Start9Labs/emver-rs. This value will change with each release of the service.
-version: 2.2.0
+version: 2.5.1
 # Release notes for the update - can be a string, paragraph or URL
-release-notes: "https://github.com/clams-tech/Remote/releases/tag/remote-2.2.0"
+release-notes: "This release features the new CLN Plugins dashboard with accompanying interfaces for the CLBOSS and BOLT12-prism plugins. We've overhauled the app's branding and addressed various bug fixes, including BOLT12 validation issues. Additionally, Remote now supports payments to BIP353 usernames. Learn more here: https://github.com/clams-tech/Remote/releases"
 # The type of license for the project. Include the LICENSE in the root of the project directory. A license is required for a Start9 package.
 license: gpl
 # The Start9 wrapper repository URL for the package. This repo contains the manifest file (this), any scripts necessary for configuration, backups, actions, or health checks (more below). This key must exist. But could be embedded into the source repository.
@@ -24,10 +24,10 @@ build: ["make"]
 # Human readable descriptors for the service. These are used throughout the StartOS user interface, primarily in the marketplace.
 description:
   # This is the first description visible to the user in the marketplace.
-  short: Use Tor Browser to Remotely control your Core Lightning nodes using Clams Remote.
+  short: Use Tor Browser to Remotely control your Core Lightning nodes using Remote.
   # This description will display with additional details in the service's individual marketplace page
   long: |
-    Connect to your node securely via the lightning network with Clams Remote. Send and receive lightning and onchain transactions, 
+    Connect to your node securely via the lightning network with Remote. Send and receive lightning and onchain transactions, 
     create BOLT12 offers and view the status of your channels remotely on your phone or desktop devices.
 # These assets are static files necessary for packaging the service for Start9 (into an s9pk). Each value is a path to the specified asset. If an asset is missing from this list, or otherwise denoted, it will be defaulted to the values denoted below.
 assets:
