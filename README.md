@@ -4,7 +4,7 @@
 
 # Remote for StartOS
 
-Remote is Remote Control for your Core lightning nodes. This repository creates the `.s9pk` package that is installed to run `clams-remote` on [StartOS](https://github.com/Start9Labs/start-os/). Learn more about service packaging in the [Developer Docs](https://start9.com/latest/developer-docs/).
+Remote is a Remote Control for your Core lightning nodes. This repository creates the `.s9pk` package that is installed to run `clams-remote` on [StartOS](https://github.com/Start9Labs/start-os/). Learn more about service packaging in the [Developer Docs](https://start9.com/latest/developer-docs/).
 
 ## Cloning this repo
 
